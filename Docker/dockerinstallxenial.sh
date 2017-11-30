@@ -1,6 +1,17 @@
+clear
+echo ""
+sleep 1
+echo ""
+sleep 1
+echo ""
+sleep 1
+echo ""
+sleep 1
+echo ""
+sleep 1
 echo "Let's install Docker for Ubuntu 16.04 Xenial Xerus!"
 sleep 3
-echo "Let's get started!"
+echo "If you are on the root account, please control-c this script, exit the prompt and run it again from your account."
 sleep 3
 echo "Please input your superuser password whenever prompted."
 sleep 1
