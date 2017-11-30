@@ -28,16 +28,13 @@ sudo apt-get install \
     software-properties-common
 
 # Installing docker repository key
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 # Adding docker repository
-sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
-   stable"
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
 # Refreshing the apt cache
-apt-get update
+sudo apt-get update
 
 # Installing docker
 sudo apt-get install docker-ce
